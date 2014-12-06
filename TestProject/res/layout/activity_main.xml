@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/backgroung">
+
+    <Button
+        android:id="@+id/btn_main_news"
+        style="@style/main_btn"
+        android:text="@string/main_news" />
+
+    <Button
+        android:id="@+id/btn_main_specialty"
+        style="@style/main_btn"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/main_specialty" />
+
+    <Button
+        android:id="@+id/btn_main_regform"
+        style="@style/main_btn"
+        android:layout_marginBottom="15dp"
+        android:text="@string/main_regform" />
+
+</LinearLayout>

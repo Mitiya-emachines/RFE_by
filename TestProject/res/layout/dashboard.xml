@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboard"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout style="@style/dashboard_space_vertical" />
+
+    <LinearLayout style="@style/dashboard_content_vertical" >
+
+        <FrameLayout style="@style/dashboard_space_horizontal" ></FrameLayout>
+
+        <LinearLayout style="@style/dashboard_content_horizontal" >	
+
+            <ImageButton
+                android:id="@+id/imgbtn_regform"
+                style="@style/dashboard_imageview"
+                android:src="@android:drawable/sym_call_missed" />
+
+            <TextView
+                style="@style/dashboard_textview"
+                android:text="@string/dashboard_tv_one" />
+        </LinearLayout>
+
+        <FrameLayout style="@style/dashboard_space_horizontal" />
+
+        <LinearLayout style="@style/dashboard_content_horizontal" >
+
+            <ImageView
+                style="@style/dashboard_imageview"
+                android:src="@android:drawable/sym_call_missed" />
+
+            <TextView
+                style="@style/dashboard_textview"
+                android:text="@string/dashboard_tv_two" />
+        </LinearLayout>
+
+        <FrameLayout style="@style/dashboard_space_horizontal" />
+    </LinearLayout>
+        
+    <FrameLayout style="@style/dashboard_space_vertical" />
+
+    <LinearLayout style="@style/dashboard_content_vertical" >
+
+        <FrameLayout style="@style/dashboard_space_horizontal" />
+
+        <LinearLayout style="@style/dashboard_content_horizontal" >
+
+            <ImageView
+                style="@style/dashboard_imageview"
+                android:src="@drawable/news" />
+
+            <TextView
+                style="@style/dashboard_textview"
+                android:text="@string/dashboard_tv_three" />
+        </LinearLayout>
+
+        <FrameLayout style="@style/dashboard_space_horizontal" />
+
+    <LinearLayout style="@style/dashboard_content_horizontal" >
+
+            <ImageView
+                style="@style/dashboard_imageview"
+                android:src="@drawable/open_day" />
+
+            <TextView
+                style="@style/dashboard_textview"
+                android:text="@string/dashboard_tv_four" />
+        </LinearLayout>
+
+        <FrameLayout style="@style/dashboard_space_horizontal" />
+    </LinearLayout>
+
+    <FrameLayout style="@style/dashboard_space_vertical" />
+
+    <LinearLayout style="@style/dashboard_content_vertical" >
+
+        <FrameLayout style="@style/dashboard_space_horizontal" />
+
+        <LinearLayout style="@style/dashboard_content_horizontal" >
+            
+            <ImageView
+                style="@style/dashboard_imageview"
+                android:src="@drawable/reception_company" />
+
+            <TextView
+                style="@style/dashboard_textview"
+                android:text="@string/dashboard_tv_five" />
+        </LinearLayout>
+
+        <FrameLayout style="@style/dashboard_space_horizontal" />
+
+        <LinearLayout style="@style/dashboard_content_horizontal" >
+
+            <ImageView
+                style="@style/dashboard_imageview"
+                android:src="@drawable/specialty" />
+            <TextView
+                style="@style/dashboard_textview"
+                android:text="@string/dashboard_tv_six" />
+        </LinearLayout>
+
+        <FrameLayout style="@style/dashboard_space_horizontal" />
+    </LinearLayout>
+
+    <FrameLayout style="@style/dashboard_space_vertical" />
+
+</LinearLayout>

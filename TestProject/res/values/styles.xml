@@ -1,0 +1,152 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	
+   
+    <!-- Base application theme, dependent on API level. This theme is replaced by AppBaseTheme from res/values-vXX/styles.xml on newer devices. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- Theme customizations available in newer API levels can go in res/values-vXX/styles.xml, while customizations related to backward-compatibility can go here.  -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    
+    <!-- dashboard style - open -->
+    <style name="dashboard_space_vertical">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">0px</item>
+	    <item name="android:layout_weight">1</item>
+	</style>
+	
+	<style name="dashboard_content_vertical">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">0px</item>
+	    <item name="android:layout_weight">3</item>
+	    <item name="android:layout_gravity">center</item>
+	</style>
+	
+	<style name="dashboard_space_horizontal">
+	    <item name="android:layout_width">0px</item>
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:layout_weight">2</item>
+	    <!-- <item name="android:background">@color/black</item> -->
+	</style>
+	
+	<style name="dashboard_content_horizontal">
+	    <item name="android:layout_width">0px</item>
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:layout_weight">3</item>
+	    <item name="android:orientation">vertical</item>
+	    <item name="android:layout_gravity">center</item>
+	    <item name="android:gravity">center</item>
+	</style>
+	
+	<style name="dashboard_imageview">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">fill_parent</item>
+	    <item name="android:layout_weight">1</item>
+	    <item name="android:scaleType">fitCenter</item>
+	</style>
+	
+	<style name="dashboard_textview">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:gravity">center</item>
+	    <!-- <item name="android:textSize">@dimen/dashboard_thumbnail_text_size</item>-->
+	    <item name="android:textSize">10sp</item>
+	    <item name="android:textStyle">bold</item>
+	   	<!--  <item name="android:textColor">@color/blue</item> -->
+	   	<item name="android:textColor">#0000ff</item>
+	</style>	
+	<!-- dashboard style - close -->
+	
+	<style name="main_btn">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_marginLeft">2dp</item>
+	    <item name="android:layout_marginRight">2dp</item>
+	    <item name="android:paddingBottom">25dp</item>
+	    <item name="android:paddingTop">25dp</item>
+	    <item name="android:textSize">40sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textColor">#ffb301</item>
+	    <item name="android:background">#00abff</item>
+	</style>
+	
+<!-- registration form style /START/ -->
+	<style name="regform_btn">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+		    <item name="android:layout_marginTop">2dp</item>
+		    <item name="android:layout_marginBottom">2dp</item>
+		    <item name="android:layout_marginLeft">5dp</item>
+		    <item name="android:layout_marginRight">5dp</item>
+	    <item name="android:textSize">20sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textColor">#ffb301</item>
+	    <item name="android:background">#00abff</item>
+	</style>
+	
+	<style name="regform_edit_text">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+		    <item name="android:layout_marginTop">2dp</item>
+		    <item name="android:layout_marginBottom">2dp</item>
+		    <item name="android:layout_marginLeft">2dp</item>
+		    <item name="android:layout_marginRight">2dp</item>
+			    <item name="android:paddingTop">5dp</item>
+			    <item name="android:paddingBottom">5dp</item>
+			    <item name="android:paddingLeft">5dp</item>
+			    <item name="android:paddingRight">1dp</item>
+	   	<item name="android:layout_weight">1</item>
+	    <item name="android:textSize">20sp</item>
+	    <!-- <item name="android:textStyle">bold</item> -->
+	    <item name="android:textColor">#ffb301</item>
+	    <item name="android:textColorHint">#ffb301</item>
+	    <item name="android:background">#00abff</item>
+	</style>
+	
+	<style name="regform_tv_large">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_weight">1</item>
+	    <item name="android:textSize">30sp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textColor">#ffb301</item>
+	</style>
+	
+	<style name="view">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">1dp</item>
+	    <item name="android:background">#ac1231</item>
+	</style>	
+	
+	<style name="regform_table_row_grand">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">match_parent</item>
+	    <item name="android:layout_marginTop">10dp</item>
+		<item name="android:layout_marginBottom">30dp</item>
+	</style>
+<!-- registration form style /FINISH/ -->
+
+<!-- other form /START/ -->
+	<style name="edit_text">
+	    <item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+		    <item name="android:layout_marginTop">2dp</item>
+		    <item name="android:layout_marginBottom">2dp</item>
+		    <item name="android:layout_marginLeft">2dp</item>
+		    <item name="android:layout_marginRight">2dp</item>
+			    <item name="android:paddingTop">5dp</item>
+			    <item name="android:paddingBottom">5dp</item>
+			    <item name="android:paddingLeft">5dp</item>
+			    <item name="android:paddingRight">1dp</item>
+	   		    <item name="android:textSize">20sp</item>
+	    <!-- <item name="android:textStyle">bold</item> -->
+	    <item name="android:textColor">#ffb301</item>
+	    <item name="android:textColorHint">#ffb301</item>
+	    <item name="android:background">#00abff</item>
+	</style>
+
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/backgroung"
+    android:layout_margin="20dp">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <TableRow
+	        android:id="@+id/tableRow10"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+		    <TextView 
+		        style="@style/regform_tv_large"
+		        android:text="@string/regfotm_tv_info"/>
+	    </TableRow>
+		    
+			<View style="@style/view"/>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            style="@style/regform_table_row_grand">
+
+            <TableLayout
+                android:layout_width="match_parent" android:layout_height="wrap_content" 
+                android:layout_weight="1">
+
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="match_parent" android:layout_height="wrap_content" >
+                    <EditText
+                        android:id="@+id/etFirstName"
+                       	style="@style/regform_edit_text"
+                        android:inputType="textPersonName"
+		    			android:hint="@string/regfotm_et_firstname" >
+                        <requestFocus />
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="match_parent" android:layout_height="wrap_content" >
+                    <EditText
+                        android:id="@+id/etLastName"
+                        style="@style/regform_edit_text"
+                        android:inputType="textPersonName"
+		    			android:hint="@string/regfotm_et_surname">
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="match_parent" android:layout_height="wrap_content" >
+                    <EditText
+                        android:id="@+id/etMiddleName"
+                        style="@style/regform_edit_text"
+                        android:inputType="textPersonName"
+		   				android:hint="@string/regfotm_et_patronymic" >
+                    </EditText>
+                </TableRow>
+                
+            </TableLayout>
+
+            <!-- android:onClick="makePhoto"-->
+            <ImageButton
+                android:id="@+id/imgbtnMakePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:layout_margin="10dp"
+                android:background="@color/backgroung"
+                android:src="@android:drawable/ic_menu_camera" />
+            
+        </TableRow>
+
+        <TableRow
+	        android:id="@+id/tableRow11"
+	        android:layout_width="wrap_content" android:layout_height="wrap_content">
+		    <TextView 
+		        style="@style/regform_tv_large"
+		        android:text="@string/regfotm_tv_contact"/>
+	    </TableRow>
+			    
+			<View style="@style/view"/>
+        
+        <TableRow
+            android:id="@+id/tableRow2"
+            style="@style/regform_table_row_grand">
+            <EditText
+	            android:id="@+id/etEmail"
+	           	style="@style/regform_edit_text" 
+	           	android:layout_weight="1"
+	            android:inputType="textEmailAddress"
+		    	android:hint="@string/regfotm_et_email">
+	        </EditText>       
+            <EditText
+	            android:id="@+id/etPhone"
+	            style="@style/regform_edit_text"
+	            android:layout_weight="0.5"
+	            android:inputType="phone"
+		   		android:hint="@string/regfotm_et_phone">
+	        </EditText>    
+        </TableRow>
+
+        <TableRow
+        android:id="@+id/tableRow12"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" >
+		    <TextView 
+		        style="@style/regform_tv_large"
+		        android:text="@string/regfotm_tv_date"/>
+	    </TableRow>
+			    
+			<View style="@style/view"/>
+			        
+        <TableRow
+            android:id="@+id/tableRow3"
+            style="@style/regform_table_row_grand">
+
+            <Spinner
+                android:id="@+id/spnrDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:entries="@array/regform_spinner_date_list" />
+
+            <Button 
+                android:id="@+id/btnAddDatePossible"
+		        style="@style/regform_btn"
+		        android:layout_weight="0.5"
+			  	android:text="@string/regform_btn_date"
+			  	android:drawableRight="@android:drawable/ic_menu_month"
+			  	android:drawableLeft="@android:drawable/ic_menu_add"/> 
+        </TableRow>
+
+        	<View style="@style/view"/>
+        
+        <TableRow
+            android:id="@+id/tableRow4"
+            style="@style/regform_table_row_grand" >
+            <!-- android:onClick="sendEmail" -->
+           	<Button 
+				android:id="@+id/btnSendRequest"   
+				style="@style/regform_btn"
+				android:layout_weight="1"
+				android:text="@string/regform_btn_submit"/>
+        </TableRow>
+        
+    </TableLayout>
+</ScrollView>

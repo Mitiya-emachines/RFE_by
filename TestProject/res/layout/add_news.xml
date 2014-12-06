@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroung"
+    android:layout_margin="20dp" >
+
+  	<TextView
+        android:id="@+id/addNewsNow"
+        style="@style/regform_tv_large"
+        android:layout_weight="0"
+        android:text="@string/addnews_tv_input"/>
+    
+    <EditText
+        android:id="@+id/inputNews"
+        style="@style/regform_edit_text"
+        android:layout_weight="0"
+        android:text="@string/addnews_et_input">
+        <requestFocus></requestFocus>
+    </EditText>
+    
+    <Button
+        android:id="@+id/submit_news"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        style="@style/regform_btn"
+		android:text="@string/addnews_btn_input"/>
+</LinearLayout>

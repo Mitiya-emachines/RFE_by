@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Абитуриент РФиКТ</string>
+    <string name="enrollee_year">Абитуриент РФиКТ  \n 2015</string>
+    <!-- <string name="action_settings">Settings</string> -->
+    <string name="action_search">Search</string>
+    
+<!-- main activity /START/ -->
+    <string name="main_news"> News </string>
+    <string name="main_specialty"> Specialty </string>
+    <string name="main_regform"> Registration </string>
+<!-- main activity /FINISH/ -->
+    
+<!-- regform /START/ -->
+    <string name="regform_btn_submit">Submit</string>
+    <string name="regform_btn_date">"Add date"</string>
+    <string name="regfotm_et_firstname">"Enter your name"</string>
+    <string name="regfotm_et_surname">"Enter your surname"</string>
+	<string name="regfotm_et_patronymic">"Enter your patronymic"</string>
+	<string name="regfotm_et_phone">"Input phone mobile"</string>
+	<string name="regfotm_et_email">"Input Email Address"</string>
+	<string name="regfotm_tv_date">"Date of visit"</string>
+	<string name="regfotm_tv_contact">"Contact informarion"</string>
+	<string name="regfotm_tv_info">"Person informarion"</string>
+	
+	<string-array name="regform_spinner_date_list">
+	    <item>02.09.2015</item>
+	    <item>11.07.2015</item>
+	    <item>02.09.2015</item>
+	    <item>02.09.2015</item>
+	</string-array>
+<!-- regform /FINISH/ -->
+
+<!-- navigation drawer /START/ -->
+	<string-array name="nav_draw_main">
+        <item>News</item>
+        <item>Specialty</item>
+        <item>Registration</item>
+    </string-array>
+    
+	<string-array name="nav_draw_specialty">
+        <item>Radiophysics</item>
+        <item>Physical Electronics</item>
+        <item>Computer Security </item>
+        <item>Aerospase technology</item>
+        <item>Applied Informatics</item>
+    </string-array>
+    
+	<string-array name="nav_draw_deparment">
+        <item>Radiophysics and digital media technology</item>
+        <item>Quantum radiophysics and optoelectronics</item>
+        <item>Physical electronics and nanotechnology</item>
+        <item>Informatics and computer systems</item>
+        <item>Intelligent systems</item>
+        <item>Telecommunications and information technology</item>
+        <item>System analysis and computer simulation</item>
+        <item>Physics and aerospace technology </item>
+    </string-array>
+	
+	<string name="drawer_open">Open navigation drawer</string>
+	<string name="drawer_close">Close navigation drawer</string>
+<!-- navigation drawer /FINISH/ -->
+	
+<!-- news /START/ -->
+	<string name="news_btn_input">Add news or announcing</string>
+
+	<string name="addnews_tv_input">Input news, please:</string>
+	<string name="addnews_et_input">Here :)</string>
+	<string name="addnews_btn_input">Submit)</string>
+<!-- news /FINISH/ -->
+
+<!-- dashboard /START/ -->
+	<string name="dashboard_tv_one">This image the button</string>
+	<string name="dashboard_tv_two">Text 2</string>
+	<string name="dashboard_tv_three">News</string>
+	<string name="dashboard_tv_four">Open day</string>
+	<string name="dashboard_tv_five">Reception company</string>
+	<string name="dashboard_tv_six">Specialty</string>
+<!-- dashboard /FINISH/ -->
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
